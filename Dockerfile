@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20201014
 
 RUN apt-get update -qq && apt-get install -qq \
         build-essential \
